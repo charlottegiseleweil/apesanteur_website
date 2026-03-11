@@ -3328,3 +3328,33 @@ input, select, textarea {
     margin: 0.25em 0 0 0;
 }
 
+/* allow feature boxes to grow with their content */
+.feature {
+    height: auto !important;
+}
+
+/* override feature cropping */
+.feature, .feature .image, .feature .image img {
+    height: auto !important;
+    width: auto !important;
+}
+.feature .image img {
+    max-width: 100
+/* override feature cropping */
+.feature, .feature .image, .feature .image img {
+    height: auto !important;
+    width: auto !important;
+}
+.feature .image img {
+    max-width: 100%;
+    object-fit: contain;
+}
+/* additional fixes for image visibility */
+.feature .image img {
+    min-height: 0 !important;
+    min-width: 0 !important;
+}
+/* allow feature images to display fully */
+.feature .image {
+    overflow: visible !important;
+}
