@@ -1,0 +1,7 @@
+.DS_Store
+
+# Raw video masters — too large for GitHub (100MB limit). Compressed
+# web versions (LesOiseaux_web.mp4, Desequilibres_web.mp4) are what
+# the site actually links to; keep these originals local-only.
+images/lesoiseaux/_LesOiseaux.mp4
+images/desequilibres/_Déséquilibres.mp4
